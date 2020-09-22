@@ -1,0 +1,108 @@
+/* .App {
+  text-align: center;
+} */
+
+.Card_Colour{
+ 
+ color: white;
+ background-color: #343a40;
+ width: 100%;
+}
+
+input.form-control[type=text] {
+  border-bottom: 1px solid #e70b55;
+  box-shadow: 0 1px 0 0 #09d413;
+}
+.form-control{
+  
+  float: right;
+}
+
+/* .......searchBox......... */
+
+body {
+  background-image: linear-gradient(to right , #cb2d3e , #ef473a);
+}
+
+.searchBox {
+  position: absolute;
+  transform:  translate(-100%,50%);
+  background: #cb2d3e;
+  height: 40px;
+  border-radius: 40px;
+  margin-left: 80%;
+  top: -2%;
+  color: white;
+
+}
+
+
+.searchBox:hover > .searchInput {
+  width: 170px;
+  padding: 0 6px;
+
+}
+
+.searchBox:hover > .searchButton {
+background: white;
+color : #2f3640;
+}
+
+.searchButton {
+  color: white;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+
+}
+
+.searchInput {
+  border:none;
+  background: none;
+  outline:none;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+
+}
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+  width: 150px;
+  padding: 0 6px;
+}
+} 
+
+::-webkit-input-placeholder { /* Edge */
+  color: white;
+}
+
+
+.updateAllList{
+
+  background-color: #555555; 
+  color: white; 
+  /* border: 2px solid white; */
+  cursor: pointer;
+  padding: 5px 20px;
+  font-size: 16px;
+  /* float: right; */
+
+}
+.updateAllList:hover {
+  background-color:#007bff;;
+  color: black;
+}
+
+
+
+
